@@ -1,0 +1,112 @@
+[
+    {
+        "img": "https://s.hdnux.com/photos/70/73/52/14924416/4/rawImage.jpg",
+        "answers": [
+            {
+                "text": "San Antonio revenue generated from tourism, 2017",
+                "selected": false
+            },
+            {
+                "text": "Parking tickets issued in Texas monthly, 2017",
+                "selected": false
+            },
+            {
+                "text": "Fire reports in San Antonio by month, 2017",
+                "selected": false
+            },
+            {
+                "text": "Border apprehensions from the Southwest Border Division monthly, 2017",
+                "selected": false
+            }
+        ],
+        "correctAnswerIndex": 3
+    },
+    {
+        "img": "https://s.hdnux.com/photos/70/73/52/14924445/4/rawImage.jpg",
+        "answers": [
+            {
+                "text": "Vehicle-related deaths on Bexar County roads, 1985-2017",
+                "selected": false
+            },
+            {
+                "text": "Homicides in San Antonio, 1985-2017",
+                "selected": false
+            },
+            {
+                "text": "Convictions obtained by sitting Bexar County District Attorney, 1985-2017",
+                "selected": false
+            },
+            {
+                "text": "Construction projects started in wards 2 and 5, 1985-2017",
+                "selected": false
+            }
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "img": "https://s.hdnux.com/photos/70/73/52/14924453/4/rawImage.jpg",
+        "answers": [
+            {
+                "text": "Traffic Deaths per 1,000, 2008-2015",
+                "selected": false
+            },
+            {
+                "text": "HIV diagnoses per 100,000, 2008-2015",
+                "selected": false
+            },
+            {
+                "text": "Infant mortality rate, 2008-2015",
+                "selected": false
+            },
+            {
+                "text": "Opioid prescription death rate, 2008-2015",
+                "selected": false
+            }
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "img": "https://s.hdnux.com/photos/70/74/53/14928637/4/rawImage.jpg",
+        "answers": [
+            {
+                "text": "Days above 100 degrees Farenheit by decade",
+                "selected": false
+            },
+            {
+                "text": "Divorce per 1,000 marriages in Bexar County by decade",
+                "selected": false
+            },
+            {
+                "text": "Water quality complaints to TCEQ by decade",
+                "selected": false
+            },
+            {
+                "text": "Bexar County army enlistment by decade",
+                "selected": false
+            }
+        ],
+        "correctAnswerIndex": 3
+    },
+    {
+        "img": "https://s.hdnux.com/photos/70/74/54/14928646/4/rawImage.jpg",
+        "answers": [
+            {
+                "text": "Spurs 3-point average vs NBA-wide 3-point average, 2006-2016",
+                "selected": false
+            },
+            {
+                "text": "Graffiti calls for service in ward 3 vs ward 5, 2006-2016",
+                "selected": false
+            },
+            {
+                "text": "Opioid prescription rate per 100 people in Bexar County and the U.S.",
+                "selected": false
+            },
+            {
+                "text": "Percent of Texans who support stricter gun control compared to U.S., 2006-2016",
+                "selected": false
+            }
+        ],
+        "correctAnswerIndex": 1
+    }
+]
