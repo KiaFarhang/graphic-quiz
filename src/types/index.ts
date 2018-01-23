@@ -11,7 +11,6 @@ export interface Question {
 }
 
 export interface AppState {
-    questions: Question[];
     currentQuestionIndex: number;
     points: number;
 }
