@@ -13,7 +13,6 @@ export interface AddPoints extends Action {
     points: number;
 }
 
-
 export const incrementQuestionIndex = (): IncrementQuestionIndex => {
     return {
         type: constants.INCREMENT_QUESTION_INDEX
@@ -24,5 +23,5 @@ export const addPoints = (points: number): AddPoints => {
     return {
         type: constants.ADD_POINTS,
         points
-    }
-}
+    };
+};
