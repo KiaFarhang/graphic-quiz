@@ -1,3 +1,16 @@
+export interface AppState {
+    currentQuestionIndex: number;
+    points: number;
+}
+
+export interface Question {
+    img: string;
+    answers: Answer[];
+    correctAnswerIndex: number;
+    addPoints: Function;
+    incrementQuestionIndex: Function;
+}
+
 export interface Answer {
     text: string;
     selected?: boolean;
@@ -5,15 +18,12 @@ export interface Answer {
     action?: Function;
 }
 
-export interface Question {
-    img: string;
-    answers: Answer[];
-    correctAnswerIndex: number;
-    addPoints?: Function;
-    incrementQuestionIndex?: Function;
+export interface Button {
+    text: string;
+    onClick?: () => void;
 }
 
-export interface AppState {
-    currentQuestionIndex: number;
-    points: number;
+export interface Points {
+    current: number;
+    possible: number;
 }
