@@ -1,0 +1,7 @@
+.answer.selected.incorrect{
+    background: red;
+}
+
+.answer.selected.correct{
+    background: green;
+}
