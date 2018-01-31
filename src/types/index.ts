@@ -1,14 +1,28 @@
 export interface AppState {
+    questions: Question[];
     currentQuestionIndex: number;
     points: number;
+    possiblePoints: number;
+    selectedAnswers: number[];
+    showNextButton: boolean;
+}
+
+export interface Quiz {
+    currentQuestionIndex: number;
+    points: number;
+    possiblePoints: number;
+    showNextButton: boolean;
 }
 
 export interface Question {
-    img: string;
     answers: Answer[];
     correctAnswerIndex: number;
-    addPoints: Function;
-    incrementQuestionIndex: Function;
+    img: string;
+}
+
+export interface QuestionComponent extends Question {
+    answerFunction: Function;
+    selectedAnswers: number[];
 }
 
 export interface Answer {

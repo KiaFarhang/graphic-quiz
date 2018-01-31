@@ -4,24 +4,24 @@ export interface Action {
     type: string;
 }
 
+export interface SendAnswer extends Action {
+    type: constants.SEND_ANSWER;
+    index: number;
+}
+
 export interface IncrementQuestionIndex extends Action {
     type: constants.INCREMENT_QUESTION_INDEX;
 }
 
-export interface AddPoints extends Action {
-    type: constants.ADD_POINTS;
-    points: number;
-}
+export const sendAnswer = (index: number): SendAnswer => {
+    return {
+        type: constants.SEND_ANSWER,
+        index
+    };
+};
 
 export const incrementQuestionIndex = (): IncrementQuestionIndex => {
     return {
         type: constants.INCREMENT_QUESTION_INDEX
-    };
-};
-
-export const addPoints = (points: number): AddPoints => {
-    return {
-        type: constants.ADD_POINTS,
-        points
     };
 };
