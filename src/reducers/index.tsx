@@ -50,10 +50,6 @@ export const questionIndex = (state: types.AppState, action: actions.IncrementQu
     });
 };
 
-export const points = (currentPoints: number = 0, action: actions.AddPoints): number => {
-    return currentPoints + action.points;
-};
-
 export const quizApp = (state: types.AppState = initialState, action: actions.Action): types.AppState => {
     switch (action.type) {
         case constants.SEND_ANSWER:
