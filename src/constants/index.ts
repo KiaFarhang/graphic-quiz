@@ -1,5 +1,5 @@
+export const SEND_ANSWER = 'SEND_ANSWER';
+export type SEND_ANSWER = typeof SEND_ANSWER;
+
 export const INCREMENT_QUESTION_INDEX = 'INCREMENT_QUESTION_INDEX';
 export type INCREMENT_QUESTION_INDEX = typeof INCREMENT_QUESTION_INDEX;
-
-export const ADD_POINTS = 'ADD_POINTS';
-export type ADD_POINTS = typeof ADD_POINTS;
