@@ -1,0 +1,10 @@
+.question img{
+    width: 100%;
+}
+
+@media (min-width: 600px){
+    .question{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+}
