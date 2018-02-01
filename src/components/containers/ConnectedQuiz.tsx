@@ -8,7 +8,8 @@ const mapStateToProps = (state: AppState) => {
         currentQuestionIndex,
         points,
         possiblePoints: currentQuestionIndex * 3,
-        showNextButton
+        showNextButton,
+        ended: currentQuestionIndex === state.questions.length ? true : false
     };
 };
 

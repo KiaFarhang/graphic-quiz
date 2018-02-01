@@ -44,7 +44,7 @@ export const questionIndex = (state: types.AppState, action: actions.IncrementQu
     return Object.assign({}, state, {
         currentQuestionIndex: state.currentQuestionIndex + 1,
         points: state.points += possibleP,
-        possiblePoints: nextQuestion.answers.length - 1,
+        possiblePoints: nextQuestion ? nextQuestion.answers.length - 1 : 0,
         selectedAnswers: [],
         showNextButton: false
     });

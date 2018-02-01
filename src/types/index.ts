@@ -12,6 +12,7 @@ export interface Quiz {
     points: number;
     possiblePoints: number;
     showNextButton: boolean;
+    ended: boolean;
 }
 
 export interface Question {
