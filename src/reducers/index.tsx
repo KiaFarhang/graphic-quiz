@@ -50,12 +50,18 @@ export const questionIndex = (state: types.AppState, action: actions.IncrementQu
     });
 };
 
+export const reset = (state: types.AppState, action: actions.ResetQuiz): types.AppState => {
+    return initialState;
+};
+
 export const quizApp = (state: types.AppState = initialState, action: actions.Action): types.AppState => {
     switch (action.type) {
         case constants.SEND_ANSWER:
             return answer(state, action as actions.SendAnswer);
         case constants.INCREMENT_QUESTION_INDEX:
             return questionIndex(state, action as actions.IncrementQuestionIndex);
+        case constants.RESET_QUIZ:
+            return reset(state, action as actions.ResetQuiz);
         default:
             return state;
     }

@@ -13,6 +13,10 @@ export interface IncrementQuestionIndex extends Action {
     type: constants.INCREMENT_QUESTION_INDEX;
 }
 
+export interface ResetQuiz extends Action {
+    type: constants.RESET_QUIZ;
+}
+
 export const sendAnswer = (index: number): SendAnswer => {
     return {
         type: constants.SEND_ANSWER,
@@ -23,5 +27,11 @@ export const sendAnswer = (index: number): SendAnswer => {
 export const incrementQuestionIndex = (): IncrementQuestionIndex => {
     return {
         type: constants.INCREMENT_QUESTION_INDEX
+    };
+};
+
+export const resetQuiz = (): ResetQuiz => {
+    return {
+        type: constants.RESET_QUIZ
     };
 };
