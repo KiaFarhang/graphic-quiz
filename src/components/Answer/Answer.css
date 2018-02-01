@@ -1,7 +1,16 @@
+.answer {
+	border: 2px solid #ADADAD;
+	border-radius: 7px;
+}
+
+p.answer {
+	padding: 3px;
+}
+
 .answer.selected.incorrect{
-    background: red;
+    background: #FFB39F;
 }
 
 .answer.selected.correct{
-    background: green;
+    background: #BDFFBE;
 }

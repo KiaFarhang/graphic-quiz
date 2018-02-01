@@ -36,7 +36,7 @@
         "correctAnswerIndex": 1
     },
     {
-        "img": "https://s.hdnux.com/photos/70/73/52/14924453/4/rawImage.jpg",
+        "img": "https://s.hdnux.com/photos/71/10/13/14975695/4/rawImage.png",
         "answers": [
             {
                 "text": "Traffic Deaths per 1,000, 2008-2015"
@@ -87,6 +87,6 @@
                 "text": "Percent of Texans who support stricter gun control compared to U.S., 2006-2016"
             }
         ],
-        "correctAnswerIndex": 1
+        "correctAnswerIndex": 2
     }
 ]

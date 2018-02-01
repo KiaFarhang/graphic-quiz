@@ -3,6 +3,7 @@ import { Quiz as Props } from '../../types';
 import Points from '../Points';
 import CurrentQuestion from '../containers/CurrentQuestion';
 import NextQuestionButton from '../containers/NextQuestionButton';
+import './Quiz.css';
 
 const Quiz = ({ currentQuestionIndex, points, possiblePoints, showNextButton }: Props) => {
     const pointsComponent = currentQuestionIndex === 0 ? null : <Points current={points} possible={possiblePoints} />;
