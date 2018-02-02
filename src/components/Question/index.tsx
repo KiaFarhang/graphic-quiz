@@ -19,14 +19,18 @@ const Question = ({ answers, answerFunction, correctAnswerIndex,
         );
     });
 
+    const isMobileScreen = window.innerWidth >= 768;
+
     return (
         <div className="question">
             <div className="imgContainer">
                 <img src={img} alt="" />
+                {showDescription && isMobileScreen &&
+                    <p>{description}</p>}
             </div>
             <div className="answerContainer">
                 {answerComponents}
-                {showDescription &&
+                {showDescription && !isMobileScreen &&
                     <p>{description}</p>}
             </div>
         </div>

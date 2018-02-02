@@ -7,6 +7,15 @@ p.answer {
 	padding: 3px;
 }
 
+@media(max-width: 767px){
+	p.answer{
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 4px;
+		padding: 2px;
+	}	
+}
+
 .answer.selected.incorrect{
     background: #FFB39F;
 }
