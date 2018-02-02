@@ -1,6 +1,7 @@
 .answer {
 	border: 2px solid #ADADAD;
 	border-radius: 7px;
+	cursor: pointer;
 }
 
 p.answer {
