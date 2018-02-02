@@ -4,7 +4,8 @@ import ConnectedAnswer from '../containers/ConnectedAnswer';
 
 import './Question.css';
 
-const Question = ({ answers, answerFunction, correctAnswerIndex, img, selectedAnswers }: Props) => {
+const Question = ({ answers, answerFunction, correctAnswerIndex,
+    description, img, selectedAnswers, showDescription }: Props) => {
     const answerComponents = answers.map((answer: AnswerProps, index) => {
         const currentAnswer = answers[index];
         return (
@@ -25,6 +26,8 @@ const Question = ({ answers, answerFunction, correctAnswerIndex, img, selectedAn
             </div>
             <div className="answerContainer">
                 {answerComponents}
+                {showDescription &&
+                    <p>{description}</p>}
             </div>
         </div>
     );

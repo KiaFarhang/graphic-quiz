@@ -11,7 +11,9 @@ const mapStateToProps = (state: types.AppState) => {
         answers: currentQuestion.answers,
         correctAnswerIndex: currentQuestion.correctAnswerIndex,
         img: currentQuestion.img,
-        selectedAnswers: state.selectedAnswers
+        selectedAnswers: state.selectedAnswers,
+        showDescription: state.answeredCorrectly,
+        description: currentQuestion.description
     };
 };
 
@@ -20,27 +22,6 @@ const mapDispatchToProps = (dispatch: Dispatch<SendAnswer>) => {
         answerFunction: (index: number) => dispatch(sendAnswer(index))
     };
 };
-
-// const mapStateToProps = (state: types.AppState) => {
-//     return {
-//         img: questions[state.currentQuestionIndex].img,
-//         answers: questions[state.currentQuestionIndex].answers,
-//         correctAnswerIndex: questions[state.currentQuestionIndex].correctAnswerIndex,
-//     };
-// };
-
-// const mapDispatchToProps = (dispatch: Dispatch<AddPoints | IncrementQuestionIndex>) => {
-//     return {
-//         addPoints: (points: number) => dispatch(addPoints(points)),
-//         incrementQuestionIndex: () => dispatch(incrementQuestionIndex()),
-//     };
-// };
-
-// export default connect(
-//     mapStateToProps,
-//     mapDispatchToProps)
-//     // tslint:disable-next-line 
-//     (Question as any);
 
 export default connect(
     mapStateToProps,

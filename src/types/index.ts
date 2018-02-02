@@ -18,12 +18,14 @@ export interface Quiz {
 export interface Question {
     answers: Answer[];
     correctAnswerIndex: number;
+    description?: string;
     img: string;
 }
 
 export interface QuestionComponent extends Question {
     answerFunction: Function;
     selectedAnswers: number[];
+    showDescription: boolean;
 }
 
 export interface Answer {

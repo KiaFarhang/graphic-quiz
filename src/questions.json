@@ -15,7 +15,8 @@
                 "text": "Border apprehensions from the Southwest Border Division monthly, 2017"
             }
         ],
-        "correctAnswerIndex": 3
+        "correctAnswerIndex": 3,
+        "description": "Correct! Border apprehensions increased each month between April and December last year."
     },
     {
         "img": "https://s.hdnux.com/photos/70/73/52/14924445/4/rawImage.jpg",
@@ -33,7 +34,8 @@
                 "text": "Construction projects started in wards 2 and 5, 1985-2017"
             }
         ],
-        "correctAnswerIndex": 1
+        "correctAnswerIndex": 1,
+        "description": "Right! Homicides in San Antonio saw a major uptick in the 90s and have risen slightly in recent years."
     },
     {
         "img": "https://s.hdnux.com/photos/71/10/13/14975695/4/rawImage.png",
@@ -51,13 +53,14 @@
                 "text": "Opioid prescription death rate, 2008-2015"
             }
         ],
-        "correctAnswerIndex": 1
+        "correctAnswerIndex": 1,
+        "description": "Correct! The HIV diagnosis rate has been higher in Bexar County than in Texas or the United States for years."
     },
     {
         "img": "https://s.hdnux.com/photos/70/74/53/14928637/4/rawImage.jpg",
         "answers": [
             {
-                "text": "Days above 100 degrees Farenheit by decade"
+                "text": "Days above 100 degrees Farenheit in San Antonio by decade"
             },
             {
                 "text": "Divorce per 1,000 marriages in Bexar County by decade"
@@ -69,7 +72,8 @@
                 "text": "Bexar County army enlistment by decade"
             }
         ],
-        "correctAnswerIndex": 0
+        "correctAnswerIndex": 0,
+        "description": "Yep! San Antonians endure more and more days of hot weather each decade. The 70s were a strange time for all of us, though."
     },
     {
         "img": "https://s.hdnux.com/photos/70/74/54/14928646/4/rawImage.jpg",
@@ -87,6 +91,7 @@
                 "text": "Percent of Texans who support stricter gun control compared to U.S., 2006-2016"
             }
         ],
-        "correctAnswerIndex": 2
+        "correctAnswerIndex": 2,
+        "description": "Yep! San Antonians endure more and more days of hot weather each decade. The 70s were a strange time for all of us, though."
     }
 ]

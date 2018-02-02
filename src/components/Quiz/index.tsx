@@ -9,7 +9,7 @@ import './Quiz.css';
 const Quiz = ({ currentQuestionIndex, points, possiblePoints, answeredCorrectly, ended }: Props) => {
     if (ended) {
         return (
-            <div className="quiz">
+            <div className="quiz ended">
                 <p>Thanks for playing! You got {points} points out of a possible {possiblePoints}.</p>
                 <ResetButton text="Play again?" />
             </div>
