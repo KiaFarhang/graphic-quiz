@@ -10,7 +10,7 @@ export const initialState: types.AppState = {
     points: 0,
     possiblePoints: questions[0].answers.length - 1,
     selectedAnswers: [],
-    showNextButton: false
+    answeredCorrectly: false
 };
 
 export const answer = (state: types.AppState = initialState, action: actions.SendAnswer): types.AppState => {
@@ -23,9 +23,9 @@ export const answer = (state: types.AppState = initialState, action: actions.Sen
     const correctAnswerIndex = state.questions[state.currentQuestionIndex].correctAnswerIndex;
 
     if (correctAnswerIndex === index) {
-        // Add the possible points to total points, set the showNextButton flag and add selected index to array
+        // Add the possible points to total points, set the answeredCorrectly flag and add selected index to array
         return Object.assign({}, state, {
-            showNextButton: true,
+            answeredCorrectly: true,
             selectedAnswers: state.selectedAnswers.concat([index])
         });
     } else {
@@ -46,7 +46,7 @@ export const questionIndex = (state: types.AppState, action: actions.IncrementQu
         points: state.points += possibleP,
         possiblePoints: nextQuestion ? nextQuestion.answers.length - 1 : 0,
         selectedAnswers: [],
-        showNextButton: false
+        answeredCorrectly: false
     });
 };
 

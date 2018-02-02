@@ -3,12 +3,12 @@ import Quiz from '../Quiz';
 import { AppState } from '../../types';
 
 const mapStateToProps = (state: AppState) => {
-    const { currentQuestionIndex, points, showNextButton } = state;
+    const { currentQuestionIndex, points, answeredCorrectly } = state;
     return {
         currentQuestionIndex,
         points,
         possiblePoints: currentQuestionIndex * 3,
-        showNextButton,
+        answeredCorrectly,
         ended: currentQuestionIndex === state.questions.length ? true : false
     };
 };

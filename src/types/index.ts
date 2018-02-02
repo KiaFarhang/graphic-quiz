@@ -4,14 +4,14 @@ export interface AppState {
     points: number;
     possiblePoints: number;
     selectedAnswers: number[];
-    showNextButton: boolean;
+    answeredCorrectly: boolean;
 }
 
 export interface Quiz {
     currentQuestionIndex: number;
     points: number;
     possiblePoints: number;
-    showNextButton: boolean;
+    answeredCorrectly: boolean;
     ended: boolean;
 }
 
