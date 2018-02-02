@@ -3,17 +3,13 @@
 }
 
 @media (min-width: 768px){
-    .question{
+    .answers{
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: space-between;
     }
 
-    .question .imgContainer{
-        flex-basis: 55%;
-    }
-
-    .question .answerContainer{
-        flex-basis: 40%;
+    .answers .answer{
+        flex-basis: 48%;
     }
 }

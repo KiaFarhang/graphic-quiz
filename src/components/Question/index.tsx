@@ -19,20 +19,17 @@ const Question = ({ answers, answerFunction, correctAnswerIndex,
         );
     });
 
-    const isMobileScreen = window.innerWidth >= 768;
-
     return (
         <div className="question">
-            <div className="imgContainer">
-                <img src={img} alt="" />
-                {showDescription && isMobileScreen &&
-                    <p>{description}</p>}
-            </div>
-            <div className="answerContainer">
+            <img src={img} alt="" />
+            <div className="answers">
                 {answerComponents}
-                {showDescription && !isMobileScreen &&
-                    <p>{description}</p>}
             </div>
+            {showDescription &&
+                <p>{description}</p>}
+            {selectedAnswers.length > 0 && !showDescription &&
+                <p>Sorry, try again.</p>
+            }
         </div>
     );
 };
