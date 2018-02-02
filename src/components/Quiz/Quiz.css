@@ -2,3 +2,8 @@ div.quiz {
 	font-family: Helvetica;
 	font-weight: 200;
 }
+
+.quiz.ended{
+	margin-top: 50%;
+	text-align: center;
+}
